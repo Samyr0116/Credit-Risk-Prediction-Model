@@ -13,4 +13,6 @@ El dataset que estaremos utilizando se llama "credit_data.xlsx" contiene datos r
 * Propósito del crédito
 * Evaluación del riesgo (good o bad)
 
-El modelo entrenado evalúa si un cliente es de alto riesgo o bajo riesgo según las características proporcionadas. Las métricas clave del desempeño del modelo, como precisión, recall y F1-score, están documentadas en el notebook.
+Desarrollé varios modelos de aprendizaje automático en Python para predecir el riesgo crediticio, tales como: **Regresión Lineal, Regresión Logística, Árbol de decisión, KMeans**, junto con preprocesamiento de datos e ingeniería de características para manejar valores faltas o nulos y valores atípicos, para mejorar la precisión. También utilice la técnica **SMOTE** para balanceo de datos. Luego de entretar los modelos, utilice diferentes métricas para evaluar su rendimiento y poder elegir el mejor modelo. 
+
+Los modelos entrenados evalúan si un cliente es de alto riesgo o bajo riesgo según las características proporcionadas. Las métricas clave del desempeño del modelo, como precisión, recall y F1-score, están documentadas en el notebook.
